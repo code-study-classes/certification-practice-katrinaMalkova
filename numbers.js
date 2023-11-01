@@ -30,8 +30,10 @@ export { calculateKilobytes };
 
 // tsk4
 
-function calculateDigitSum() {
-
+function calculateSegments(lengthA, lengthB) {
+  return Math.floor(lengthA / lengthB);
 }
 
-export { calculateDigitSum };
+console.log(calculateSegments(10, 3));
+
+export { calculateSegments };
